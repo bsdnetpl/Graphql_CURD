@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.32804.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Graphql_CURD", "Graphql_CURD\Graphql_CURD.csproj", "{97A87B22-6675-4768-87E0-62970661DCBC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{97A87B22-6675-4768-87E0-62970661DCBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97A87B22-6675-4768-87E0-62970661DCBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97A87B22-6675-4768-87E0-62970661DCBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97A87B22-6675-4768-87E0-62970661DCBC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7A76B327-3951-4DF9-BD89-E32FC853A646}
+	EndGlobalSection
+EndGlobal
