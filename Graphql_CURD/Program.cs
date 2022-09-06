@@ -12,7 +12,8 @@ builder.Services.AddDbContext<MyWorkDbContext>(options =>
 builder.Services.AddGraphQLServer()
     .AddQueryType<Query>()
     .AddMutationType<Mutation>()
-    .AddFiltering();
+    .AddFiltering()
+    .AddSorting();
 
 var app = builder.Build();
 
