@@ -14,9 +14,10 @@
         "launchBrowser": true,
       "launchUrl": "graphql",
       "applicationUrl": "https://localhost:7013;http://localhost:5232",
-      "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
-      }
+        "environmentVariables": {
+            "ASPNETCORE_ENVIRONMENT": "Development",
+            "GOOGLE_APPLICATION_CREDENTIALS": "./firebird-config.json"
+        }
     },
     "IIS Express": {
       "commandName": "IISExpress",

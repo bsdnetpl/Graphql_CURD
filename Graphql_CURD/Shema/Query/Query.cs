@@ -8,7 +8,8 @@ namespace Graphql_CURD.Shema.Query
     public class Query
     {
         //[UseDbContext(typeof(MyWorkDbContext))]
-        [UsePaging(IncludeTotalCount = true, DefaultPageSize = 5)]
+        [UsePaging(IncludeTotalCount = true, DefaultPageSize = 15)]
+        [UseProjection]
         [UseFiltering]
         [UseSorting(typeof(SortingTypes))]
         public async Task<List<Cakes>> AllCakesAsync([Service] MyWorkDbContext myWorkDbContext)
