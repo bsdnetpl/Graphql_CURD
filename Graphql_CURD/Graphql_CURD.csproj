@@ -9,6 +9,8 @@
   <ItemGroup>
     <PackageReference Include="FirebaseAdminAuthentication.DependencyInjection" Version="1.0.2" />
     <PackageReference Include="FluentAssertions" Version="6.7.0" />
+    <PackageReference Include="FluentValidation" Version="11.2.1" />
+    <PackageReference Include="FluentValidation.AspNetCore" Version="11.2.2" />
     <PackageReference Include="HotChocolate.AspNetCore" Version="12.13.0" />
     <PackageReference Include="HotChocolate.AspNetCore.Authorization" Version="12.13.1" />
     <PackageReference Include="HotChocolate.Data" Version="12.13.0" />
@@ -19,6 +21,7 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="MongoDB.Driver" Version="2.17.1" />
   </ItemGroup>
 
 </Project>
